@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="row header-container bg-light">
+            <section class="logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </section>
+            <section>
+                <nav class="top-nav-menu ">
+                    <ul class="topnavbar" id="navbar">
+                        <li><a href="" class="text-dark">Home</a></li>
+                        <li><a href="" class="text-dark">About</a></li>
+                        <li><a href="" class="text-dark">Destination</a></li>
+                        <li><a href="" class="text-dark">Pages</a></li>
+                        <li><a href="" class="text-dark">Blog</a></li>
+                        <li><a href="" class="text-dark">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="phone_no">
+                <p class="text-dark"><i class="text-red fas fa-phone"></i> 10(256)-928 256</p>
+            </section>
+            <section class="header-social-menu f-18 ">
+                <ul class="d-flex">
+                    <li>
+                        <a href="#"> <i class="text-gray bg-white  fab fa-instagram"></i> </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> <i class="text-gray bg-white fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="text-gray bg-white fab fa-facebook"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="text-gray bg-white fab fa-google-plus"></i> </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="header-search-dropdown-link d-flex">
+                <div class="search-icon d-flex bg-red">
+                    <a href="#" class="text-white "><i class="fas fa-search"></i></a>
+                </div>
+                <div class="dropdown-menu d-flex bg-blue" onclick="showMenu()">
+                    <a href="#" class="text-white"><i class="fas fa-bars"></i></a>
+                </div>
+
+            </section>
+        </section>
+    </header>
+    <main>
+        <section class="slider ">
+            <!-- <section class="img-slider"><img src="images/banner2.png" alt=""></section> -->
+            <section class="slider-text d-flex text-white ">
+                <h3 class="f-120 text-white">Austalia</h3>
+                <p class="f-18 text-white">Pixel perfect design with awesome contents</p>
+                <a class="slider-btn text-white bg-blue f-18 pd-20-40 br-5" href="">Explore Now</a>
+            </section>
+
+        </section>
+        <section class="search-bar text-gray bg-dark d-flex pd-20">
+            <h3 class="f-18 text-white">Where you want to go?</h3>
+            <form action="" class="search-form d-flex f-18 mg-20">
+
+                <input type="text" name="destination" placeholder="Where to go?" class="frm-search-box">
+                <input type="date" name="date" id="" placeholder="Date" class="frm-search-box">
+                <select name="destination_place" class="frm-search-box" placeholder="" value="none"> 
+                    <option value="none" selected disabled hidden>
+                    Travel Type</option>
+                    <option value="paris">paris</option>
+                    <option value="london">london</option>
+                    <option value="NewYork">NewYork</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                <input type="submit" value="Search" class="bg-red text-white pd-10-40 br-5 f-16 search-btn">
+            </form>
+
+        </section>
+        <section class="Popular-Destination-area w-100">
+            <section class="text-popular-destination">
+                <h3 class="f-38 text-dark pd-20">Popular Destination</h3>
+                <p class="f-16 text-gray ">Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+
+
+            </section>
+            <section class="gird-destination-pic">
+                <section class="grid-pic">
+                    <article class="grid-pic-item ">
+                        <img class="" src="images/1.png" alt="">
+                        <div class="pic-caption  d-flex br-5">
+                            <p class="city f-22 text-white"> Italy</p>
+                            <a class="place f-14 p-20 bg-blue text-white br-5" href="">07 Places </a>
+                        </div>
+                    </article>
+                    <div class="grid-pic-item ">
+                        <img class="" src="images/2.png" alt="">
+                        <div class="pic-caption  d-flex br-5">
+                            <p class="city f-22 text-white"> Italy</p>
+                            <a class="place f-14 p-20 bg-blue text-white br-5" href="">07 Places </a>
+                        </div>
+
+
+                    </div>
+                    <div class="grid-pic-item ">
+                        <img class="" src="images/3.png" alt="">
+                        <div class="pic-caption  d-flex br-5">
+                            <p class="city f-22 text-white"> Italy</p>
+                            <a class="place f-14 p-20 bg-blue text-white br-5" href="">07 Places </a>
+                        </div>
+
+
+                    </div>
+                    <div class="grid-pic-item ">
+                        <img class="" src="images/4.png" alt="">
+                        <div class="pic-caption  d-flex br-5">
+                            <p class="city f-22 text-white"> Italy</p>
+                            <a class="place f-14 p-20 bg-blue text-white br-5" href="">07 Places </a>
+                        </div>
+
+
+                    </div>
+                    <div class="grid-pic-item ">
+                        <img class="" src="images/5.png" alt="">
+                        <div class="pic-caption  d-flex br-5">
+                            <p class="city f-22 text-white"> Italy</p>
+                            <a class="place f-14 p-20 bg-blue text-white br-5" href="">07 Places </a>
+                        </div>
+
+
+                    </div>
+                    <div class="grid-pic-item ">
+
+                        <img class="" src="images/6.png" alt="">
+                        <div class="pic-caption  d-flex br-5">
+                            <p class="city f-22 text-white"> Italy</p>
+                            <a class="place f-14 p-20 bg-blue text-white br-5" href="">07 Places </a>
+                        </div>
+
+
+                    </div>
+
+
+
+                </section>
+            </section>
+        </section>
+        <section class="Subscribe-form-area">
+            <div class="subscibe-form d-flex ">
+                <div class="text-subscribe text-white pd-20-40 ">
+                    <h3 class="f-22 pd-10">Subscribe Our Newsletter</h3>
+                    <p class="f-16 p-10">Subscribe newsletter to get offers and about new places to discover.</p>
+                </div>
+                <form action="" class="form d-flex">
+                    <input type="email" placeholder="Your e-mail?" class="email-box pd-10-40 f-16 br-5 mg-10">
+                    <input type="submit" class="btn-subscribe bg-red text-white pd-10-40 br-5 f-18 " value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="popular-places-area bg-gray pd-20 w-100">
+            <section class="text-popular-destination">
+                <h3 class="f-38 text-dark pd-20">Popular Places</h3>
+                <p class="f-16 text-gray ">Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+            </section>
+            <section class="grid-popular-places">
+                <article class="grid-popular-item bg-white br-5 ">
+                    <img class="" src="images/p1.png" alt="">
+                    <a href="#" class="prise bg-blue text-white">$500</a>
+                    <div class="place_info">
+                        <a href="#">
+                            <h3 class="title-place text-dark f-22">California</h3>
+                        </a>
+                        <p class="text-gray">United State of America</p>
+                        <div class="rating d-flex">
+                            <span class="star d-flex f-14">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                        </span>
+                            <div class="days text-gray">
+                                <i class="fa fa-clock-o "></i>
+                                <a href="#">5 Days</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="grid-popular-item bg-white br-5">
+                    <img class="" src="images/p2.png" alt="">
+                    <a href="#" class="prise bg-blue text-white">$500</a>
+                    <div class="place_info">
+                        <a href="#">
+
+
+                            <h3 class="title-place text-dark f-22">Korola Megna</h3>
+                        </a>
+                        <p class="text-gray">United State of America</p>
+                        <div class="rating d-flex">
+                            <span class="star d-flex f-14">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                        </span>
+                            <div class="days text-gray">
+                                <i class="fa fa-clock-o "></i>
+                                <a href="#">5 Days</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="grid-popular-item bg-white br-5">
+                    <img class="" src="images/p3.png" alt="">
+                    <a href="#" class="prise bg-blue text-white">$500</a>
+                    <div class="place_info">
+                        <a href="#">
+                            <h3 class="title-place text-dark f-22">London</h3>
+                        </a>
+                        <p class="text-gray">United State of America</p>
+                        <div class="rating d-flex">
+                            <span class="star d-flex f-14">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                        </span>
+                            <div class="days text-gray">
+                                <i class="fa fa-clock-o "></i>
+                                <a href="#">5 Days</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="grid-popular-item bg-white br-5">
+                    <img class="" src="images/p4.png" alt="">
+                    <a href="#" class="prise bg-blue text-white">$500</a>
+                    <div class="place_info">
+                        <a href="#">
+                            <h3 class="title-place text-dark f-22">Miami Beach</h3>
+                        </a>
+                        <p class="text-gray">United State of America</p>
+                        <div class="rating d-flex">
+                            <span class="star d-flex f-14">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                        </span>
+                            <div class="days text-gray">
+                                <i class="fa fa-clock-o "></i>
+                                <a href="#">5 Days</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="grid-popular-item bg-white br-5">
+                    <img class="" src="images/p5.png" alt="">
+                    <a href="#" class="prise bg-blue text-white">$500</a>
+                    <div class="place_info">
+                        <a href="#">
+                            <h3 class="title-place text-dark f-22">California</h3>
+                        </a>
+                        <p class="text-gray">United State of America</p>
+                        <div class="rating d-flex">
+                            <span class="star d-flex f-14">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                        </span>
+                            <div class="days text-gray">
+                                <i class="fa fa-clock-o "></i>
+                                <a href="#">5 Days</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="grid-popular-item bg-white br-5">
+                    <img class="" src="images/p6.png" alt="">
+                    <a href="#" class="prise bg-blue text-white">$500</a>
+                    <div class="place_info">
+                        <a href="#">
+                            <h3 class="title-place text-dark f-22">California</h3>
+                        </a>
+                        <p class="text-gray">United State of America</p>
+                        <div class="rating d-flex">
+                            <span class="star d-flex f-14">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                        </span>
+                            <div class="days text-gray">
+                                <i class="fa fa-clock-o "></i>
+                                <a href="#">5 Days</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </section>
+
+            <a class=" btn-more text-white bg-red br-5 f-18" href="">More Places</a>
+
+        </section>
+
+        <section class="video-area">
+            <div class="video-container d-flex">
+                <h3 class="f-120 text-white">Enjoy Video</h3>
+                <div class="d-flex btn-play bg-blue"><a href=""><i class="f-38 text-white fa fa-play-circle"></i></a></div>
+                <!-- <video src="images/video.png" width="100%" height="400px" controls>
+                 </video> -->
+
+
+            </div>
+        </section>
+        <section class="travel-variation-area"></section>
+        <section class="testimonial-area"></section>
+        <section class="recent-trip-area"></section>
+
+
+    </main>
+    <footer class="footer bg-dark">
+        <section class=" footer-top  d-flex ">
+            <section class="col1 d-flex ">
+                <section class="logo ">
+                    <img src="images/footer_logo.png " alt=" ">
+                </section>
+                <section class="contact-info ">
+                    <p class="f-14 text-gray ">
+                        5th flora, 700/D kings road, green lane New York-1782 <a class="text-gray" href="#">+10 367 826 2567</a> <a class="text-gray" href="">contact@carpenter.com</a>
+                    </p>
+                </section>
+                <section class="footer-social-menu ">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="text-red fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+            </section>
+            <section class="company d-flex ">
+                <h3 class="f-18 text-white">Company</h3>
+                <ul>
+                    <li><a class="text-gray f-14 " href=" ">Pricing</a></li>
+                    <li><a class="text-gray f-14 " href=" ">About</a></li>
+                    <li><a class="text-gray f-14 " href=" ">Gallery</a></li>
+                    <li><a class="text-gray f-14 " href=" ">Contacts</a></li>
+                </ul>
+            </section>
+            <section class="popular-des d-flex ">
+                <h3 class="f-18 text-white ">Popular Destination</h3>
+                <div class="p-places">
+                    <ul>
+                        <li><a class="text-gray f-14 " href="# ">Indonesia</a></li>
+                        <li><a class="text-gray f-14 " href="# ">America</a></li>
+                        <li><a class="text-gray f-14 " href="# ">India</a></li>
+                        <li><a class="text-gray f-14 " href="# ">Switzerland</a></li>
+                        <li><a class="text-gray f-14 " href="# ">Italy</a></li>
+                        <li><a class="text-gray f-14 " href="# ">Canada</a></li>
+                        <li><a class="text-gray f-14 " href="# ">Franch</a></li>
+                        <li><a class="text-gray f-14 " href="# ">England</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="insat-grid ">
+                <h3 class="text-white f-18">Instagram</h3>
+                <div class="grid-footer-pic">
+                    <img class="br-5" src="images\insta1.png" alt="">
+                    <img class="br-5" src="images\insta1.png" alt="">
+                    <img class="br-5" src="images\insta1.png" alt="">
+                    <img class="br-5" src="images\insta1.png" alt="">
+                    <img class="br-5" src="images\insta1.png" alt="">
+                    <img class="br-5" src="images\insta1.png" alt="">
+                </div>
+            </section>
+
+        </section>
+        <section class="footer-line ">
+            <div class="w-100 bg-gray"></div>
+        </section>
+        <section class="footer-copyright ">
+            <p class="text-gray f-15">Copyright © 2021 All rights reserved| This template is made with <i class="text-gray fa fa-heart" aria-hidden="true"></i> by <a class="text-red" href="https://colorlib.com" target="_blank">Colorlib</a>
+            </p>
+        </section>
+    </footer>
+</body>
+<script>
+    function showMenu() {
+        var str = document.getElementById("navbar");
+        if (str.className === "topnavbar ") {
+            str.className += " show ";
+        } else {
+            str.className = "topnavbar "
+        }
+    }
+</script>
+<!-- <script>
+    function change() {
+        var str = document.getElementsByClassName("places f-14 p-20 bg-blue text-white br-5");
+        str.className = "places f-14 p-20 bg-red text-white br-5 "
+        var str = document.getElementsByClassName("city f-22 text-white");
+        str.className = "city f-22 text-red"
+    }
+</script>
+<script>
+    function unchange() {
+        var str = document.getElementsByClassName("places f-14 p-20 bg-red text-white br-5");
+        str.className = "places f-14 p-20 bg-blue text-white br-5 "
+        var str = document.getElementsByClassName("city f-22 text-red");
+        str.className = "city f-22 text-white "
+    }
+</script> -->
+
+
+
+
+
+
+
+
+
+</html>
